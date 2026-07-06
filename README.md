@@ -107,20 +107,6 @@ Al iniciar la aplicación, se desplegará el siguiente menú interactivo en tu t
 4. **`[ESTRÉS ROL C] Acceso Carpeta Denegado`**: Simula una revocación física de los permisos de escritura en la carpeta de salida a mitad de la ejecución, arrojando la excepción `AccesoCarpetaDenegadoException` y verificando que el servidor capture el fallo sin congelar su ejecución.
 5. **`[ESTRÉS ROL C] Interrupción física de Hilos`**: Simula una señal de interrupción física de hardware (`.interrupt()`) en ambos hilos, comprobando que el sistema libere todos los descriptores de canales NIO abiertos de manera armoniosa y controlada.
 
----
-
-## 💻 Importación en IntelliJ IDEA
-
-Este repositorio incluye todas las configuraciones nativas del entorno de desarrollo IntelliJ IDEA. Para abrirlo y programar sobre él:
-
-1. Inicia **IntelliJ IDEA**.
-2. Haz clic en **Open** (Abrir).
-3. Selecciona la carpeta raíz del proyecto:
-   `c:\xampp\htdocs\proyecto\Prog2\Portafolio_prog_redes`
-4. Presiona **OK**.
-5. IntelliJ reconocerá automáticamente la carpeta `src` como Sources Root y configurará el entorno de compilación para JDK 23 de forma nativa. Podrás ejecutar el método `main` directamente desde la interfaz gráfica.
-
----
 
 ## 📊 Bitácora de Punteros de Buffer (Clase 3)
 
