@@ -1,0 +1,10 @@
+1 | [SYS] Inicio del sistema - Motores en frío
+1 | [SYS] Cargando librerías dinámicas de red
+2 | [NET] Demora detectada en puerto serial COM3
+1 | [SYS] Almacenamiento primario montado en RAM
+3 | [HARD] Sobretemperatura detectada en Núcleo 2 (78C)
+2 | [NET] Paquetes UDP descartados por checksum inválido
+1 | [SYS] Sincronizando relojes del sistema con NTP
+3 | [HARD] Caída brusca de voltaje detectada en riel 5V
+1 | [SYS] Ejecutando rutinas de calibración del acelerómetro
+1 | [SYS] Sistema estable - Esperando comando remoto
